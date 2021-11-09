@@ -33,6 +33,7 @@ const App = () => {
     setTasks(tasks.filter((task) => task.id !== id))
   }
 
+  //map is list
   const toggleReminder = (id) => {
     setTasks(
       tasks.map((task) =>
